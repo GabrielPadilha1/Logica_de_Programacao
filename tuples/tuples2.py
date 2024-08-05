@@ -20,17 +20,17 @@ mercado.
 - Exiba na tela o último item da tupla mercado.
 """
 
-frutas = ("banana", "maçã", "laranja")
-legumes = ("tomate", "cenoura", "batata")
+frutas = ("Banana", "Maçã", "Laranja")
+legumes = ("Tomate", "Cenoura", "Batata")
 mercado = frutas + legumes
 
-if "laranja" in mercado:
-    print("Laranja está disponível")
+if "Laranja" in mercado:
+    print("Laranja está disponível.")
 else:
-    print("Laranja não está disponível")
+    print("Laranja não está disponível.")
 
-if "alface" in mercado:
-    print("Alface está disponível")
+if "Alface" in mercado:
+    print("Alface está disponível.")
 else:
-    print("Alface não está disponível")
-print(mercado[-1])
+    print("Alface não está disponível.")
+print(f"O último item da lista de compras é: {mercado[-1]}")

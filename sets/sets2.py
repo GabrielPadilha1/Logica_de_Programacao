@@ -30,11 +30,7 @@ numeros2 = {1, 3, 5, 7, 9}
 union_1_2 = numeros1.union(numeros2)
 print(f'A União dos conjuntos é: {union_1_2} ')
 
-inter_1_2 = numeros1.intersection(numeros2)
-if inter_1_2 == set():
-    print("Interseção incorreta, não existe elementos comuns nesses conjuntos. ")
-else:
-    print(f'A interseção desses conjuntos é: {inter_1_2} ')
+print('A intersecção do conjunto "conjunto1" e "conjunto2":', numeros1.intersection(numeros2))
 
 diffe_1_2 = numeros1.difference(numeros2)
 print(f'A diferença dos conjuntos é: {diffe_1_2} ')

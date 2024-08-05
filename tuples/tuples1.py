@@ -18,12 +18,12 @@ do arco-íris: "vermelho", "laranja", "amarelo", "verde",
 - Tente modificar o valor da cor na quinta posição da tupla.
 (Isso deve gerar um erro, pois tuplas são imutáveis).
 - Crie uma nova tupla chamada cores_invertidas que seja a reversa da minha_tupla.
-- Mostre na tela a cores_invertidas.
+- Mostre na tela as cores_invertidas.
 """
 
 minha_tupla = ("vermelho", "laranja", "amarelo", "verde", "azul", "anil", "violeta")
-print(minha_tupla[4])
-#minha_tupla.append[5] = "branco" #ERROR
+print(minha_tupla[3])
+#minha_tupla.append[4] = "branco" #ERROR
 
 cores_invertidas = minha_tupla[::-1]
 print(cores_invertidas) 

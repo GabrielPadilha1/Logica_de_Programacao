@@ -43,12 +43,7 @@ letras.remove('b')
 
 consoantes = {'b', 'd', 'f',}
 
-inter_con_vog = letras & consoantes
-if inter_con_vog != set():
-    print(f'O conjunto de consoantes está contida no conjunto "letras" {inter_con_vog} ')
-else:
-    inter_con_vog == set()
-    print('O conjunto de consoantes não está contida no conjunto "letras"')
+print(f'O conjunto consoantes está contido no conjunto "letras":{consoantes.issubset(letras)}')
 
 uniao_con_vog = letras.union(consoantes)
-print(uniao_con_vog)
+print(f'A união destes conjuntos é: {uniao_con_vog}')
